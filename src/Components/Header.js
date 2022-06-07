@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 import { useStateValue } from "./StateProvider";
 
 function Header() {
-  const [{ cart }, dispatch] = useStateValue();
+  const [{ cart },] = useStateValue();
 
   useEffect(() => {
     const toggleIcon = document.querySelector(".toggleMenu");
